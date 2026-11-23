@@ -1,0 +1,14 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "split": "train<=2023, val=2024, test>=2025",
+  "features": [
+    "depth",
+    "latitude",
+    "longitude",
+    "magType"
+  ],
+  "test_accuracy": 0.8224518118735543,
+  "test_balanced_accuracy": 0.5548647864158036,
+  "test_macro_f1": 0.33871744697777106,
+  "baseline_accuracy": 0.9253662297609869
+}
